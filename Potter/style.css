@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("fon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  color: rgb(3, 3, 3);
+  padding: 5vh;
+  text-align: center;
+  background-color: rgba(213, 217, 219, 0.575);
+}
+main {
+  display: flex;
+  flex: 1;
+}
+.main {
+  flex: 1;
+  padding: 1vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(136, 139, 141, 0.452);
+}
+.content {
+  display: flex;
+  padding: 1vh;
+  width: 20vw;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(213, 217, 219, 0.575);
+}
+footer {
+  display: inline-flex;
+  justify-content: center;
+  padding: 2vh;
+}
+.ftr {
+  background-color: rgb(223, 217, 217);
+  padding: 1vw;
+  margin: 1vh;
+}
+.box {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border: #fae68f;
+  height: 100px;
+  width: 120px;
+  top: 240px;
+  left: 40vw;
+  background-color: #fae68f;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border: #fae68f;
+  height: 100px;
+  width: 120px;
+  top: 240px;
+  left: 10vw;
+  background-color: #fae68f;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border: #fae68f;
+  height: 100px;
+  width: 120px;
+  top: 360px;
+  left: 10vw;
+  background-color: #fae68f;
+  align-items: center;
+  justify-content: center;
+}
+
+.box4 {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border: #fae68f;
+  height: 100px;
+  width: 120px;
+  top: 360px;
+  left: 40vw;
+  background-color: #fae68f;
+  align-items: center;
+  justify-content: center;
+}
+.box:hover {
+  width: 250px;
+  height: 220px;
+  z-index: 1;
+}
+
+.box2:hover {
+  width: 250px;
+  height: 220px;
+  z-index: 1;
+}
+
+.box3:hover {
+  width: 250px;
+  height: 220px;
+  z-index: 1;
+  top: 300px;
+}
+
+.box4:hover {
+  width: 250px;
+  height: 220px;
+  z-index: 1;
+  top: 300px;
+}
